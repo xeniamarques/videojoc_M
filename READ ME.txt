@@ -1,0 +1,15 @@
+🐾 Misto's Adventures - Instruccions d'Execució
+
+Aquest és un joc desenvolupat amb la llibreria **Phaser 3**. Degut a les polítiques de seguretat dels navegadors moderns (CORS), el joc no es pot executar obrint directament el fitxer `index.html`.
+
+🚀 Com executar el joc
+
+Per poder jugar, cal seguir aquests passos:
+
+1.  Obrir la carpeta del projecte amb **Visual Studio Code**.
+2.  Assegurar-se de tenir instal·lada l'extensió **Live Server** (de Ritwick Dey).
+3.  Fer clic dret sobre el fitxer `index.html` i seleccionar l'opció **"Open with Live Server"**.
+4.  El joc s'obrirà automàticament al teu navegador a l'adreça local (normalment `http://127.0.0.1:5500` o `5501`).
+
+---
+*Nota: Si s'intenta obrir el fitxer sense un servidor local, el navegador bloquejarà la càrrega dels assets (imatges i mapes) i el joc no funcionarà correctament.*

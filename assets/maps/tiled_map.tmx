@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="19" nextobjectid="122">
+ <editorsettings>
+  <export target="tiled_map.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="TilesetPaid-CanyonDesertPlatformer" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+  <image source="../tilesets/TilesetPaid-CanyonDesertPlatformer.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="TilesetPaid-CanyonDesertPlatformer" tilewidth="32" tileheight="32" tilecount="0" columns="8">
+  <image source="../../../../../../DESKTOP/Tiled_map_Misto/Paid-CanyonDesertPlatformer-CubeAssets/Paid-CanyonDesertPlatformer-CubeAssets/Paid-Tileset/TilesetPaid-CanyonDesertPlatformer.png" width="256" height="256"/>
+ </tileset>
+ <imagelayer id="3" name="canyó" visible="0" offsetx="23" offsety="385">
+  <image source="C:/Users/Xènia/AppData/Local/DESKTOP/Tiled_map_Misto/Paid-CanyonDesertPlatformer-CubeAssets/Paid-CanyonDesertPlatformer-CubeAssets/Paid-Background/CanyonDesert-BGstatic.png"/>
+ </imagelayer>
+ <imagelayer id="10" name="canyó" visible="0" offsetx="-1" offsety="332">
+  <image source="C:/Users/Xènia/AppData/Local/DESKTOP/Tiled_map_Misto/Paid-CanyonDesertPlatformer-CubeAssets/Paid-CanyonDesertPlatformer-CubeAssets/Paid-Background/CanyonDesert-BGstatic.png"/>
+ </imagelayer>
+ <imagelayer id="7" name="cel" visible="0" offsetx="-1" offsety="77">
+  <image source="C:/Users/Xènia/AppData/Local/DESKTOP/Tiled_map_Misto/Paid-CanyonDesertPlatformer-CubeAssets/Paid-CanyonDesertPlatformer-CubeAssets/Paid-Background/CanyonDesert-BGlayer1.png"/>
+ </imagelayer>
+ <imagelayer id="8" name="cel2" visible="0" offsetx="-2" offsety="42">
+  <image source="C:/Users/Xènia/AppData/Local/DESKTOP/Tiled_map_Misto/Paid-CanyonDesertPlatformer-CubeAssets/Paid-CanyonDesertPlatformer-CubeAssets/Paid-Background/CanyonDesert-BGlayer1.png"/>
+ </imagelayer>
+ <imagelayer id="5" name="nuvols" visible="0" offsetx="95" offsety="149">
+  <image source="C:/Users/Xènia/AppData/Local/DESKTOP/Tiled_map_Misto/Paid-CanyonDesertPlatformer-CubeAssets/Paid-CanyonDesertPlatformer-CubeAssets/Paid-Background/CanyonDesert-BGlayer2.png"/>
+ </imagelayer>
+ <imagelayer id="9" name="nuvols" visible="0" offsetx="-57" offsety="-35">
+  <image source="C:/Users/Xènia/AppData/Local/DESKTOP/Tiled_map_Misto/Paid-CanyonDesertPlatformer-CubeAssets/Paid-CanyonDesertPlatformer-CubeAssets/Paid-Background/CanyonDesert-BGlayer2.png"/>
+ </imagelayer>
+ <imagelayer id="17" name="fons" offsetx="-57.3333" offsety="-50.6667">
+  <image source="fons.png" width="807" height="708"/>
+ </imagelayer>
+ <layer id="2" name="platforms" width="20" height="20">
+  <data encoding="csv">
+15,14,15,14,14,14,15,14,15,14,14,14,15,14,14,15,14,15,14,15,
+14,15,14,15,15,14,17,21,21,21,21,21,21,21,21,21,18,14,14,14,
+15,14,15,14,14,14,56,0,0,0,0,0,0,0,0,0,47,14,15,15,
+14,17,22,22,22,22,10,0,0,0,0,0,1,6,7,6,26,14,14,14,
+21,10,0,0,0,0,0,0,0,0,36,33,55,14,14,14,14,15,14,14,
+0,0,0,0,0,0,0,0,43,6,2,0,49,21,21,21,21,22,22,23,
+0,0,19,12,20,0,0,0,9,22,10,0,11,0,0,0,0,63,0,0,
+36,0,27,12,28,0,0,0,0,0,0,19,30,20,0,0,24,30,0,0,
+0,0,0,0,0,0,0,0,0,0,0,27,38,28,0,0,0,41,2,0,
+0,0,43,2,1,7,2,0,0,0,0,0,0,0,0,0,0,9,8,6,
+0,0,47,25,26,15,56,0,0,0,0,0,0,0,0,0,19,45,26,14,
+0,0,9,23,21,21,10,0,0,0,0,35,0,0,0,24,30,55,14,15,
+0,0,0,0,0,0,0,0,64,0,1,31,2,0,0,0,0,55,15,17,
+0,0,0,0,0,0,0,0,40,34,9,22,10,0,0,0,19,55,14,25,
+0,0,0,0,0,0,0,19,30,20,0,0,0,0,0,0,27,55,15,14,
+33,35,34,0,0,43,6,46,38,30,24,43,44,0,0,0,0,47,14,15,
+0,32,0,0,0,47,14,48,0,32,0,51,52,0,0,0,1,26,14,14,
+5,31,6,2,1,26,15,25,6,31,5,6,7,5,6,7,26,14,15,14,
+14,15,14,48,47,15,14,14,14,15,14,14,14,15,14,15,14,14,15,15,
+15,14,15,56,55,14,15,14,14,14,14,14,15,14,14,15,14,15,14,14
+</data>
+ </layer>
+ <layer id="6" name="cactus explosius" width="20" height="20" offsetx="8" offsety="-12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,58,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+57,0,58,0,0,0,0,58,58,0,58,57,58,58,58,57,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="12" name="decoració" width="20" height="20" offsetx="1" offsety="-13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,59,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,61,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="13" name="decoracio 2" width="20" height="20" offsetx="15" offsety="19">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,62,0,0,0,0,0,0,0,0,0,57,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,63,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,61,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="16" name="limits" visible="0">
+  <object id="46" x="526" y="42" width="23" height="77"/>
+  <object id="47" x="195" y="15" width="342" height="30"/>
+  <object id="48" x="171" y="39" width="37" height="72"/>
+  <object id="49" x="30" y="71" width="151" height="41"/>
+  <object id="50" x="-1" y="98" width="49" height="48"/>
+  <object id="51" x="-2" y="146" width="5" height="426"/>
+  <object id="52" x="636" y="160" width="28" height="165"/>
+  <object id="54" x="399" y="112" width="9" height="65"/>
+  <object id="55" x="401" y="148" width="249" height="28"/>
+  <object id="56" x="556" y="334" width="16" height="198"/>
+  <object id="58" x="594" y="308" width="15" height="31"/>
+  <object id="61" x="175" y="493" width="8" height="73"/>
+  <object id="62" x="224" y="499" width="10" height="67"/>
+  <object id="63" x="97" y="566" width="12" height="69"/>
+  <object id="64" x="141" y="565" width="12" height="71"/>
+  <object id="65" x="527" y="533" width="10" height="33"/>
+ </objectgroup>
+ <objectgroup id="11" name="dany">
+  <object id="12" x="241" y="538" width="54" height="15"/>
+  <object id="13" x="118" y="601" width="18" height="18"/>
+  <object id="15" x="73" y="539" width="32" height="19"/>
+  <object id="16" x="13" y="532" width="20" height="20"/>
+  <object id="17" x="619" y="269" width="19" height="29"/>
+  <object id="18" x="525" y="213" width="20" height="21"/>
+  <object id="19" x="407" y="212" width="14" height="25"/>
+  <object id="21" x="426" y="95" width="28" height="12"/>
+  <object id="85" x="330" y="535" width="26" height="19"/>
+  <object id="86" x="367" y="536" width="16" height="21"/>
+  <object id="87" x="394" y="537" width="26" height="18"/>
+  <object id="88" x="432" y="537" width="20" height="20"/>
+  <object id="89" x="461" y="537" width="17" height="18"/>
+  <object id="90" x="495" y="533" width="20" height="11"/>
+  <object id="92" x="113" y="569" width="25" height="28"/>
+ </objectgroup>
+ <objectgroup id="14" name="Platforms">
+  <object id="22" x="10" y="493" width="71" height="4"/>
+  <object id="24" x="160" y="492" width="77" height="10"/>
+  <object id="25" x="236" y="460" width="72" height="6"/>
+  <object id="26" x="304" y="489" width="112" height="6"/>
+  <object id="27" x="241" y="488" width="64" height="6"/>
+  <object id="33" x="144" y="301" width="64" height="10"/>
+  <object id="34" x="113" y="333" width="29" height="11"/>
+  <object id="35" x="63" y="300" width="51" height="16"/>
+  <object id="37" x="7" y="239" width="19" height="5"/>
+  <object id="38" x="75" y="205" width="71" height="6"/>
+  <object id="40" x="258" y="173" width="79" height="7"/>
+  <object id="44" x="396" y="109" width="134" height="10"/>
+  <object id="45" x="206" y="77" width="19" height="13"/>
+  <object id="72" x="511" y="237" width="62" height="6"/>
+  <object id="73" x="363" y="237" width="70" height="6"/>
+  <object id="74" x="483" y="364" width="71" height="6"/>
+  <object id="76" x="527" y="527" width="45" height="8"/>
+  <object id="77" x="594" y="302" width="47" height="7"/>
+  <object id="78" x="236" y="559" width="292" height="7"/>
+  <object id="79" x="808" y="568"/>
+  <object id="84" x="334.667" y="398" width="67.3333" height="2.66667"/>
+  <object id="93" x="0" y="557.5" width="114" height="9"/>
+  <object id="94" x="142" y="558" width="41" height="10"/>
+  <object id="95" x="270.5" y="428.5" width="35.5" height="4.5"/>
+  <object id="96" x="353" y="366.5" width="30.5" height="3.5"/>
+  <object id="97" x="208.5" y="332.5" width="14.5" height="5"/>
+  <object id="98" x="560.667" y="270" width="31.3333" height="5.33333"/>
+  <object id="99" x="524.667" y="332" width="32" height="4.66667"/>
+  <object id="102" x="558" y="332" width="44" height="194.667"/>
+  <object id="103" x="594.667" y="304" width="6.66667" height="30.6667"/>
+  <object id="104" x="635.333" y="178.667" width="4" height="128"/>
+  <object id="105" x="198.667" y="24.6667" width="340" height="20"/>
+  <object id="106" x="531.333" y="25.3333" width="10.6667" height="102.667"/>
+  <object id="107" x="404" y="114" width="7.33333" height="56.6667"/>
+  <object id="108" x="365.333" y="140" width="34" height="6"/>
+  <object id="109" x="330.667" y="140.667" width="13.3333" height="4.66667"/>
+  <object id="110" x="298.667" y="157.333" width="14" height="15.3333"/>
+  <object id="111" x="194" y="46" width="11.3333" height="65.3333"/>
+  <object id="112" x="44" y="96.6667" width="152.667" height="13.3333"/>
+  <object id="113" x="6" y="102.667" width="38.6667" height="40"/>
+  <object id="114" x="412.667" y="158.667" width="224" height="12.6667"/>
+  <object id="115" x="180.667" y="504.667" width="56" height="62.6667"/>
+  <object id="116" x="148" y="565.333" width="9.33333" height="76"/>
+  <object id="117" x="100" y="562.667" width="8" height="80"/>
+  <object id="118" x="528.667" y="534.667" width="8.66667" height="33.3333"/>
+  <object id="119" x="524.667" y="429.333" width="34.6667" height="4"/>
+  <object id="120" x="547.333" y="396.667" width="11.3333" height="5.33333"/>
+  <object id="121" x="538" y="506.667" width="16" height="18"/>
+ </objectgroup>
+</map>
